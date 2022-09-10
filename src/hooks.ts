@@ -7,6 +7,6 @@ export interface UseUsersResponse {
 
 export const useUsers = (): UseUsersResponse => {
   // TODO: fetch users using fetchUsers API and return them
-
+  fetchUsers
   return { users: [], loading: false };
 };

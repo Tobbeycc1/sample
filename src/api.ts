@@ -20,6 +20,8 @@ const users: User[] = [
   { id: "13", firstName: "Jack", lastName: "Barker" },
 ];
 
+export const values  = users
+
 export const fetchUsers = async () => {
   // sleep 500
   await new Promise((res) => setTimeout(res, 500));

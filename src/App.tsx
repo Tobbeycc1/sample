@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo512.png';
 import './App.css';
 import UserList from './UserList';
 
@@ -18,7 +18,7 @@ function App() {
         <UserList users={[]} />
         
         <p>
-          {/* TODO: 
+          { /* TODO: 
             When users are selected, display a greeting with their first name 
             
             eg: 👋 Well, hello Richard, Dinesh!
